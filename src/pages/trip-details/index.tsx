@@ -31,7 +31,7 @@ export function TripDetailPage(){
           <div className="flex items-center justify-between">
             <h2 className="text-3xl font-semibold">Atividades</h2>
             
-          <Button onClick={openCreateActivityModal} variant="secondary" size="default">
+          <Button onClick={openCreateActivityModal} variant="primary" size="default">
             <Plus className='size-5'/>
             Cadastrar atividades
           </Button> 
